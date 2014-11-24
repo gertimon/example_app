@@ -15,10 +15,12 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'scrivito', '0.30.0'
 gem 'scrivito_editors', '~> 0.30.0'
 
+gem 'scrivito_icon_box_widget'
+gem 'font-awesome-rails'
+
 group :development, :test do
   gem 'spring'
   gem 'pry-rails'
   gem 'dotenv-rails'
   gem 'rspec-rails'
 end
-
